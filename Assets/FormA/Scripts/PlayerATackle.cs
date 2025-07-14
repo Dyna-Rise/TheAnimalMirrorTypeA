@@ -45,7 +45,7 @@ public class PlayerATackle : MonoBehaviour
     IEnumerator TackleAttack()
     {
         float duration = 0.5f;
-        float timer = 0f;
+        //float timer = 0f;
 
         GameController.gameState = GameState.attack;
         tackleCollider.enabled = true;
